@@ -1,4 +1,4 @@
-# Listen To Change for Refresh Page 
+# Listen To Change And Refresh Page 
 auto create php server and open browser  and listen to change file to refresh page in ubuntu with bash script
 ## before run script
  i used two package for listen to change file and run and send key to web browser 
