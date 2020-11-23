@@ -1,7 +1,7 @@
 #!/bin/bash
 
 URL='localhost:8002'
-target_dir='public/index.php 
+target_dir='public/index.php' 
 path=$(which xdg-open || which gnome-open) && exec "$path" "http://$URL" &
 php -S $URL $target_dir &
 inotifywait -m -e CLOSE_WRITE \
